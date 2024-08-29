@@ -8,7 +8,7 @@
 支持语音合成、多模态、可扩展的（[function call][docs-functionc-call]）插件系统<br/>
 一键**免费**拥有你自己的 ChatGPT/Gemini/Claude/Ollama 应用
 
-[English](./README.md) · **简体中文** · [官网][official-site] · [更新日志](./CHANGELOG.md) · [文档][docs] · [博客][blog] · [反馈问题][github-issues-link]
+[English](./README.md) · **简体中文** · [日本語](./README.ja-JP.md) · [官网][official-site] · [更新日志](./CHANGELOG.md) · [文档][docs] · [博客][blog] · [反馈问题][github-issues-link]
 
 <!-- SHIELD GROUP -->
 
@@ -254,6 +254,7 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- AGENT LIST -->
 
+<<<<<<< HEAD
 | 最近新增                                                                                                                                                                         | 助手说明                                                                                                                                                                                                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [开发变量名转换专家](https://chat-preview.lobehub.com/market?agent=variable-name-conversion)<br/><sup>By **[zengyishou](https://github.com/zengyishou)** on **2024-08-21**</sup> | 在软件开发过程中，命名变量是一项常见却相对耗时的任务。本助手能够根据特定的命名规则自动将中文变量名转换为符合小驼峰、大驼峰、下划线、横线以及常量命名规范的英文变量名。这不仅提高了代码的可读性，还解决了变量命名的苦恼。<br/>`软件开发` `变量命名` `中文转英文` `代码规范` `自动转换` |
@@ -262,6 +263,22 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 | [RO-SCIRAW 提示词专家](https://chat-preview.lobehub.com/market?agent=rosciraw)<br/><sup>By **[kirklin](https://github.com/kirklin)** on **2024-08-06**</sup>                     | RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精确和高效的提示词提供了一个全新的范式。请输入你要创建的分身信息。<br/>`提示词框架`                                                                                                                                         |
 
 > 📊 Total agents: [<kbd>**315**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+=======
+| 最近新增                                                                                                                                                     | 助手说明                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| [后退提问专家](https://chat-preview.lobehub.com/market?agent=step-back-expert)<br/><sup>By **[tiny656](https://github.com/tiny656)** on **2024-08-27**</sup> | 你好！我是世界知识的专家，擅长用后退提问策略来帮助你更深入地理解和分析问题。请你输入一个问题，我会根据以下流程回答你的问题： |
+
+1. 给出至少 3 个符合策略的可选后退提问。
+2. 分别回答这些后退提问。
+3. 将上述回答作为论据，有逻辑、条理地，使用可视化图表辅助对你的问题进行最终作答。
+
+请告诉我你想要探讨的问题是什么？<br/>`后退提问` `思考策略` `问题分析` |
+\| [虚幻引擎大师](https://chat-preview.lobehub.com/market?agent=unreal-engine-master)<br/><sup>By **[thedivergentai](https://github.com/thedivergentai)** on **2024-08-27**</sup> | 虚幻游戏开发助手<br/>`游戏开发` `虚幻引擎` `软件工程` |
+\| [TypeScript 解决方案架构师](https://chat-preview.lobehub.com/market?agent=typescript-developer)<br/><sup>By **[swarfte](https://github.com/swarfte)** on **2024-08-24**</sup> | 精通 TypeScript、Node.js、Vue.js 3、Nuxt.js 3、Express.js、React.js 和现代 UI 库。<br/>`类型脚本` `java-script` `网页开发` `编码标准` `最佳实践` |
+\| [开发变量名转换专家](https://chat-preview.lobehub.com/market?agent=variable-name-conversion)<br/><sup>By **[zengyishou](https://github.com/zengyishou)** on **2024-08-21**</sup> | 在软件开发过程中，命名变量是一项常见却相对耗时的任务。本助手能够根据特定的命名规则自动将中文变量名转换为符合小驼峰、大驼峰、下划线、横线以及常量命名规范的英文变量名。这不仅提高了代码的可读性，还解决了变量命名的苦恼。<br/>`软件开发` `变量命名` `中文转英文` `代码规范` `自动转换` |
+
+> 📊 Total agents: [<kbd>**319**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+>>>>>>> 1f9eb045254b65bf4c6394334258119f13804698
 
  <!-- AGENT LIST -->
 
