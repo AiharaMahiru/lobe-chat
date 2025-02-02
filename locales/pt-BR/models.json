@@ -176,6 +176,9 @@
   "Pro/meta-llama/Meta-Llama-3.1-8B-Instruct": {
     "description": "Meta Llama 3.1 é uma família de modelos de linguagem em larga escala multilíngue desenvolvida pela Meta, incluindo variantes pré-treinadas e de ajuste fino para instruções com tamanhos de parâmetros de 8B, 70B e 405B. Este modelo de 8B foi otimizado para cenários de diálogo multilíngue e se destacou em vários benchmarks da indústria. O treinamento do modelo utilizou mais de 150 trilhões de tokens de dados públicos e empregou técnicas como ajuste fino supervisionado e aprendizado por reforço com feedback humano para melhorar a utilidade e segurança do modelo. Llama 3.1 suporta geração de texto e geração de código, com data de corte de conhecimento em dezembro de 2023."
   },
+  "Qwen/QVQ-72B-Preview": {
+    "description": "QVQ-72B-Preview é um modelo de pesquisa desenvolvido pela equipe Qwen, focado em capacidades de raciocínio visual, apresentando vantagens únicas na compreensão de cenários complexos e na resolução de problemas matemáticos relacionados à visão."
+  },
   "Qwen/QwQ-32B-Preview": {
     "description": "QwQ-32B-Preview é o mais recente modelo de pesquisa experimental da Qwen, focado em melhorar a capacidade de raciocínio da IA. Ao explorar mecanismos complexos como mistura de linguagem e raciocínio recursivo, suas principais vantagens incluem forte capacidade de análise de raciocínio, habilidades matemáticas e de programação. Ao mesmo tempo, existem questões de troca de linguagem, ciclos de raciocínio, considerações de segurança e diferenças em outras capacidades."
   },
@@ -530,11 +533,20 @@
   "databricks/dbrx-instruct": {
     "description": "DBRX Instruct oferece capacidade de processamento de instruções altamente confiável, suportando aplicações em diversos setores."
   },
+  "deepseek-ai/DeepSeek-R1": {
+    "description": "DeepSeek-R1 é um modelo de inferência impulsionado por aprendizado por reforço (RL), que resolve problemas de repetitividade e legibilidade no modelo. Antes do RL, o DeepSeek-R1 introduziu dados de inicialização a frio, otimizando ainda mais o desempenho da inferência. Ele apresenta desempenho comparável ao OpenAI-o1 em tarefas matemáticas, de código e de inferência, e melhora o resultado geral por meio de métodos de treinamento cuidadosamente projetados."
+  },
   "deepseek-ai/DeepSeek-V2.5": {
     "description": "DeepSeek V2.5 combina as excelentes características das versões anteriores, aprimorando a capacidade geral e de codificação."
   },
+  "deepseek-ai/DeepSeek-V3": {
+    "description": "DeepSeek-V3 é um modelo de linguagem de especialistas mistos (MoE) com 671 bilhões de parâmetros, utilizando atenção latente de múltiplas cabeças (MLA) e a arquitetura DeepSeekMoE, combinando uma estratégia de balanceamento de carga sem perda auxiliar para otimizar a eficiência de inferência e treinamento. Após ser pré-treinado em 14,8 trilhões de tokens de alta qualidade e passar por ajuste fino supervisionado e aprendizado por reforço, o DeepSeek-V3 supera outros modelos de código aberto em desempenho, aproximando-se de modelos fechados líderes."
+  },
   "deepseek-ai/deepseek-llm-67b-chat": {
     "description": "DeepSeek 67B é um modelo avançado treinado para diálogos de alta complexidade."
+  },
+  "deepseek-ai/deepseek-vl2": {
+    "description": "DeepSeek-VL2 é um modelo de linguagem visual baseado no DeepSeekMoE-27B, desenvolvido como um especialista misto (MoE), utilizando uma arquitetura de MoE com ativação esparsa, alcançando desempenho excepcional com apenas 4,5 bilhões de parâmetros ativados. Este modelo se destaca em várias tarefas, incluindo perguntas visuais, reconhecimento óptico de caracteres, compreensão de documentos/tabelas/gráficos e localização visual."
   },
   "deepseek-chat": {
     "description": "Um novo modelo de código aberto que combina capacidades gerais e de codificação, não apenas preservando a capacidade de diálogo geral do modelo Chat original e a poderosa capacidade de processamento de código do modelo Coder, mas também alinhando-se melhor às preferências humanas. Além disso, o DeepSeek-V2.5 também alcançou melhorias significativas em várias áreas, como tarefas de escrita e seguimento de instruções."
@@ -547,6 +559,9 @@
   },
   "deepseek-coder-v2:236b": {
     "description": "DeepSeek Coder V2 é um modelo de código de especialistas abertos, destacando-se em tarefas de codificação, comparável ao GPT4-Turbo."
+  },
+  "deepseek-r1": {
+    "description": "DeepSeek-R1 é um modelo de inferência impulsionado por aprendizado por reforço (RL), que resolve problemas de repetitividade e legibilidade no modelo. Antes do RL, o DeepSeek-R1 introduziu dados de inicialização a frio, otimizando ainda mais o desempenho da inferência. Ele apresenta desempenho comparável ao OpenAI-o1 em tarefas matemáticas, de código e de inferência, e melhora o resultado geral por meio de métodos de treinamento cuidadosamente projetados."
   },
   "deepseek-reasoner": {
     "description": "Modelo de raciocínio lançado pela DeepSeek. Antes de fornecer a resposta final, o modelo gera uma cadeia de pensamento para aumentar a precisão da resposta final."
@@ -809,8 +824,17 @@
   "hunyuan-functioncall": {
     "description": "O mais recente modelo FunctionCall da arquitetura MOE Hunyuan, treinado com dados de alta qualidade de FunctionCall, com uma janela de contexto de 32K, liderando em várias métricas de avaliação."
   },
+  "hunyuan-large": {
+    "description": "O modelo Hunyuan-large possui um total de aproximadamente 389B de parâmetros, com cerca de 52B de parâmetros ativados, sendo o modelo MoE de código aberto com a maior escala de parâmetros e melhor desempenho na arquitetura Transformer atualmente disponível no mercado."
+  },
+  "hunyuan-large-longcontext": {
+    "description": "Especializado em tarefas de texto longo, como resumo de documentos e perguntas e respostas de documentos, também possui a capacidade de lidar com tarefas gerais de geração de texto. Apresenta desempenho excepcional na análise e geração de textos longos, conseguindo atender efetivamente às demandas complexas e detalhadas de processamento de conteúdo longo."
+  },
   "hunyuan-lite": {
     "description": "Atualizado para uma estrutura MOE, com uma janela de contexto de 256k, liderando em várias avaliações em NLP, código, matemática e setores diversos em comparação com muitos modelos de código aberto."
+  },
+  "hunyuan-lite-vision": {
+    "description": "Modelo multimodal mais recente de 7B da Hunyuan, com janela de contexto de 32K, suporta diálogos multimodais em cenários em chinês e português, reconhecimento de objetos em imagens, compreensão de documentos e tabelas, matemática multimodal, entre outros, superando modelos concorrentes de 7B em várias métricas de avaliação."
   },
   "hunyuan-pro": {
     "description": "Modelo de texto longo MOE-32K com trilhões de parâmetros. Alcança níveis de liderança absoluta em vários benchmarks, com capacidades complexas de instrução e raciocínio, habilidades matemáticas complexas, suporte a chamadas de função, otimizado para áreas como tradução multilíngue, finanças, direito e saúde."
@@ -824,8 +848,23 @@
   "hunyuan-standard-256K": {
     "description": "Adota uma estratégia de roteamento superior, ao mesmo tempo que mitiga problemas de balanceamento de carga e convergência de especialistas. Em termos de textos longos, o índice de precisão atinge 99,9%. O MOE-256K rompe ainda mais em comprimento e desempenho, expandindo significativamente o comprimento de entrada permitido."
   },
+  "hunyuan-standard-vision": {
+    "description": "Modelo multimodal mais recente da Hunyuan, suporta respostas em múltiplas línguas, com habilidades equilibradas em chinês e português."
+  },
   "hunyuan-turbo": {
     "description": "Versão de pré-visualização do novo modelo de linguagem de próxima geração Hunyuan, utilizando uma nova estrutura de modelo de especialistas mistos (MoE), com eficiência de inferência mais rápida e desempenho superior em comparação ao Hunyuan-Pro."
+  },
+  "hunyuan-turbo-20241120": {
+    "description": "Versão fixa do hunyuan-turbo de 20 de novembro de 2024, uma versão intermediária entre hunyuan-turbo e hunyuan-turbo-latest."
+  },
+  "hunyuan-turbo-20241223": {
+    "description": "Esta versão otimiza: escalonamento de instruções de dados, aumentando significativamente a capacidade de generalização do modelo; melhoria substancial nas habilidades matemáticas, de codificação e de raciocínio lógico; otimização das capacidades de compreensão de texto e palavras; melhoria na qualidade da geração de conteúdo de criação de texto."
+  },
+  "hunyuan-turbo-latest": {
+    "description": "Otimização da experiência geral, incluindo compreensão de NLP, criação de texto, conversas informais, perguntas e respostas de conhecimento, tradução, entre outros; aumento da humanização, otimização da inteligência emocional do modelo; melhoria na capacidade do modelo de esclarecer ativamente em casos de intenção ambígua; aprimoramento na capacidade de lidar com questões de análise de palavras; melhoria na qualidade e interatividade da criação; aprimoramento da experiência em múltiplas interações."
+  },
+  "hunyuan-turbo-vision": {
+    "description": "Novo modelo de linguagem visual de próxima geração da Hunyuan, adotando uma nova estrutura de modelo de especialistas mistos (MoE), com melhorias abrangentes em relação ao modelo anterior nas capacidades de reconhecimento básico, criação de conteúdo, perguntas e respostas de conhecimento, e análise e raciocínio relacionados à compreensão de texto e imagem."
   },
   "hunyuan-vision": {
     "description": "O mais recente modelo multimodal Hunyuan, que suporta a entrada de imagens e texto para gerar conteúdo textual."
@@ -1192,6 +1231,9 @@
   },
   "pro-128k": {
     "description": "Spark Pro 128K possui uma capacidade de processamento de contexto extremamente grande, capaz de lidar com até 128K de informações contextuais, especialmente adequado para análise completa e processamento de associações lógicas de longo prazo em conteúdos longos, podendo oferecer lógica fluida e consistente e suporte a diversas citações em comunicações textuais complexas."
+  },
+  "qvq-72b-preview": {
+    "description": "O modelo QVQ é um modelo de pesquisa experimental desenvolvido pela equipe Qwen, focado em melhorar a capacidade de raciocínio visual, especialmente na área de raciocínio matemático."
   },
   "qwen-coder-plus-latest": {
     "description": "Modelo de código Qwen."

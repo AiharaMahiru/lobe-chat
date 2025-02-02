@@ -176,6 +176,9 @@
   "Pro/meta-llama/Meta-Llama-3.1-8B-Instruct": {
     "description": "Meta Llama 3.1 là một phần của gia đình mô hình ngôn ngữ lớn đa ngôn ngữ do Meta phát triển, bao gồm các biến thể tiền huấn luyện và tinh chỉnh theo chỉ dẫn với quy mô tham số 8B, 70B và 405B. Mô hình 8B này được tối ưu hóa cho các tình huống đối thoại đa ngôn ngữ, thể hiện xuất sắc trong nhiều bài kiểm tra chuẩn ngành. Mô hình được đào tạo bằng hơn 15 triệu tỷ tokens từ dữ liệu công khai và sử dụng các kỹ thuật như tinh chỉnh giám sát và học tăng cường phản hồi của con người để nâng cao tính hữu ích và an toàn của mô hình. Llama 3.1 hỗ trợ sinh văn bản và sinh mã, với thời điểm cắt kiến thức là tháng 12 năm 2023."
   },
+  "Qwen/QVQ-72B-Preview": {
+    "description": "QVQ-72B-Preview là một mô hình nghiên cứu do đội ngũ Qwen phát triển, tập trung vào khả năng suy diễn hình ảnh, có lợi thế độc đáo trong việc hiểu các cảnh phức tạp và giải quyết các vấn đề toán học liên quan đến hình ảnh."
+  },
   "Qwen/QwQ-32B-Preview": {
     "description": "QwQ-32B-Preview là mô hình nghiên cứu thử nghiệm mới nhất của Qwen, tập trung vào việc nâng cao khả năng suy luận của AI. Thông qua việc khám phá các cơ chế phức tạp như trộn ngôn ngữ và suy luận đệ quy, những lợi thế chính bao gồm khả năng phân tích suy luận mạnh mẽ, khả năng toán học và lập trình. Tuy nhiên, cũng có những vấn đề về chuyển đổi ngôn ngữ, vòng lặp suy luận, các vấn đề an toàn và sự khác biệt về các khả năng khác."
   },
@@ -530,11 +533,20 @@
   "databricks/dbrx-instruct": {
     "description": "DBRX Instruct cung cấp khả năng xử lý chỉ dẫn đáng tin cậy, hỗ trợ nhiều ứng dụng trong ngành."
   },
+  "deepseek-ai/DeepSeek-R1": {
+    "description": "DeepSeek-R1 là một mô hình suy diễn được điều khiển bởi học tăng cường (RL), giải quyết các vấn đề về tính lặp lại và khả năng đọc hiểu trong mô hình. Trước khi áp dụng RL, DeepSeek-R1 đã giới thiệu dữ liệu khởi động lạnh, tối ưu hóa thêm hiệu suất suy diễn. Nó thể hiện hiệu suất tương đương với OpenAI-o1 trong các nhiệm vụ toán học, mã và suy diễn, và thông qua phương pháp đào tạo được thiết kế cẩn thận, nâng cao hiệu quả tổng thể."
+  },
   "deepseek-ai/DeepSeek-V2.5": {
     "description": "DeepSeek V2.5 kết hợp các đặc điểm xuất sắc của các phiên bản trước, tăng cường khả năng tổng quát và mã hóa."
   },
+  "deepseek-ai/DeepSeek-V3": {
+    "description": "DeepSeek-V3 là một mô hình ngôn ngữ hỗn hợp chuyên gia (MoE) với 6710 tỷ tham số, sử dụng chú ý tiềm ẩn đa đầu (MLA) và kiến trúc DeepSeekMoE, kết hợp với chiến lược cân bằng tải không có tổn thất phụ trợ, tối ưu hóa hiệu suất suy diễn và đào tạo. Thông qua việc được tiền huấn luyện trên 14.8 triệu tỷ token chất lượng cao, và thực hiện tinh chỉnh giám sát và học tăng cường, DeepSeek-V3 vượt trội về hiệu suất so với các mô hình mã nguồn mở khác, gần gũi với các mô hình đóng nguồn hàng đầu."
+  },
   "deepseek-ai/deepseek-llm-67b-chat": {
     "description": "DeepSeek 67B là mô hình tiên tiến được huấn luyện cho các cuộc đối thoại phức tạp."
+  },
+  "deepseek-ai/deepseek-vl2": {
+    "description": "DeepSeek-VL2 là một mô hình ngôn ngữ hình ảnh hỗn hợp chuyên gia (MoE) được phát triển dựa trên DeepSeekMoE-27B, sử dụng kiến trúc MoE với kích hoạt thưa, đạt được hiệu suất xuất sắc chỉ với 4.5B tham số được kích hoạt. Mô hình này thể hiện xuất sắc trong nhiều nhiệm vụ như hỏi đáp hình ảnh, nhận diện ký tự quang học, hiểu tài liệu/bảng/biểu đồ và định vị hình ảnh."
   },
   "deepseek-chat": {
     "description": "Mô hình mã nguồn mở mới kết hợp khả năng tổng quát và mã, không chỉ giữ lại khả năng đối thoại tổng quát của mô hình Chat ban đầu và khả năng xử lý mã mạnh mẽ của mô hình Coder, mà còn tốt hơn trong việc phù hợp với sở thích của con người. Hơn nữa, DeepSeek-V2.5 cũng đã đạt được sự cải thiện lớn trong nhiều khía cạnh như nhiệm vụ viết, theo dõi chỉ dẫn."
@@ -547,6 +559,9 @@
   },
   "deepseek-coder-v2:236b": {
     "description": "DeepSeek Coder V2 là mô hình mã nguồn mở hỗn hợp chuyên gia, thể hiện xuất sắc trong các nhiệm vụ mã, tương đương với GPT4-Turbo."
+  },
+  "deepseek-r1": {
+    "description": "DeepSeek-R1 là một mô hình suy diễn được điều khiển bởi học tăng cường (RL), giải quyết các vấn đề về tính lặp lại và khả năng đọc hiểu trong mô hình. Trước khi áp dụng RL, DeepSeek-R1 đã giới thiệu dữ liệu khởi động lạnh, tối ưu hóa thêm hiệu suất suy diễn. Nó thể hiện hiệu suất tương đương với OpenAI-o1 trong các nhiệm vụ toán học, mã và suy diễn, và thông qua phương pháp đào tạo được thiết kế cẩn thận, nâng cao hiệu quả tổng thể."
   },
   "deepseek-reasoner": {
     "description": "Mô hình suy diễn do DeepSeek phát triển. Trước khi đưa ra câu trả lời cuối cùng, mô hình sẽ xuất ra một đoạn nội dung chuỗi suy nghĩ để nâng cao độ chính xác của câu trả lời cuối."
@@ -809,8 +824,17 @@
   "hunyuan-functioncall": {
     "description": "Mô hình FunctionCall với cấu trúc MOE mới nhất của Hunyuan, được huấn luyện trên dữ liệu FunctionCall chất lượng cao, với cửa sổ ngữ cảnh đạt 32K, dẫn đầu trong nhiều chỉ số đánh giá."
   },
+  "hunyuan-large": {
+    "description": "Mô hình Hunyuan-large có tổng số tham số khoảng 389B, số tham số kích hoạt khoảng 52B, là mô hình MoE mã nguồn mở có quy mô tham số lớn nhất và hiệu quả nhất trong ngành hiện nay."
+  },
+  "hunyuan-large-longcontext": {
+    "description": "Chuyên xử lý các nhiệm vụ văn bản dài như tóm tắt tài liệu và hỏi đáp tài liệu, đồng thời cũng có khả năng xử lý các nhiệm vụ tạo văn bản chung. Thể hiện xuất sắc trong phân tích và tạo nội dung văn bản dài, có thể đáp ứng hiệu quả các yêu cầu xử lý nội dung dài phức tạp và chi tiết."
+  },
   "hunyuan-lite": {
     "description": "Nâng cấp lên cấu trúc MOE, với cửa sổ ngữ cảnh 256k, dẫn đầu nhiều mô hình mã nguồn mở trong các bộ đánh giá NLP, mã, toán học, ngành nghề, v.v."
+  },
+  "hunyuan-lite-vision": {
+    "description": "Mô hình đa phương thức mới nhất 7B của Hunyuan, cửa sổ ngữ cảnh 32K, hỗ trợ đối thoại đa phương thức trong các tình huống tiếng Trung và tiếng Anh, nhận diện đối tượng hình ảnh, hiểu biết tài liệu và bảng biểu, toán học đa phương thức, v.v., với các chỉ số đánh giá vượt trội hơn các mô hình cạnh tranh 7B ở nhiều khía cạnh."
   },
   "hunyuan-pro": {
     "description": "Mô hình văn bản dài MOE-32K với quy mô hàng triệu tham số. Đạt được mức độ dẫn đầu tuyệt đối trên nhiều benchmark, có khả năng xử lý các lệnh phức tạp và suy diễn, có khả năng toán học phức tạp, hỗ trợ functioncall, được tối ưu hóa cho các lĩnh vực dịch thuật đa ngôn ngữ, tài chính, pháp lý và y tế."
@@ -824,8 +848,23 @@
   "hunyuan-standard-256K": {
     "description": "Sử dụng chiến lược định tuyến tốt hơn, đồng thời giảm thiểu vấn đề cân bằng tải và đồng nhất chuyên gia. Về mặt văn bản dài, chỉ số tìm kiếm đạt 99.9%. MOE-256K đã có bước đột phá về độ dài và hiệu quả, mở rộng đáng kể độ dài đầu vào có thể."
   },
+  "hunyuan-standard-vision": {
+    "description": "Mô hình đa phương thức mới nhất của Hunyuan, hỗ trợ trả lời đa ngôn ngữ, khả năng tiếng Trung và tiếng Anh cân bằng."
+  },
   "hunyuan-turbo": {
     "description": "Phiên bản xem trước của thế hệ mới mô hình ngôn ngữ lớn Hunyuan, sử dụng cấu trúc mô hình chuyên gia hỗn hợp (MoE) hoàn toàn mới, so với hunyuan-pro, hiệu suất suy diễn nhanh hơn và hiệu quả mạnh mẽ hơn."
+  },
+  "hunyuan-turbo-20241120": {
+    "description": "Phiên bản cố định hunyuan-turbo ngày 20 tháng 11 năm 2024, là một phiên bản nằm giữa hunyuan-turbo và hunyuan-turbo-latest."
+  },
+  "hunyuan-turbo-20241223": {
+    "description": "Phiên bản này tối ưu hóa: quy mô chỉ thị dữ liệu, nâng cao đáng kể khả năng tổng quát của mô hình; nâng cao đáng kể khả năng toán học, lập trình, và suy luận logic; tối ưu hóa khả năng hiểu biết văn bản và từ ngữ; tối ưu hóa chất lượng tạo nội dung văn bản."
+  },
+  "hunyuan-turbo-latest": {
+    "description": "Tối ưu hóa trải nghiệm chung, bao gồm hiểu biết NLP, sáng tạo văn bản, trò chuyện, hỏi đáp kiến thức, dịch thuật, và các lĩnh vực khác; nâng cao tính nhân văn, tối ưu hóa trí tuệ cảm xúc của mô hình; cải thiện khả năng làm rõ khi ý định không rõ ràng; nâng cao khả năng xử lý các vấn đề phân tích từ ngữ; nâng cao chất lượng và khả năng tương tác trong sáng tạo; cải thiện trải nghiệm đa vòng."
+  },
+  "hunyuan-turbo-vision": {
+    "description": "Mô hình ngôn ngữ hình ảnh thế hệ mới của Hunyuan, sử dụng cấu trúc mô hình chuyên gia hỗn hợp (MoE) hoàn toàn mới, nâng cao toàn diện khả năng nhận diện cơ bản, sáng tạo nội dung, hỏi đáp kiến thức, và phân tích suy luận so với mô hình thế hệ trước."
   },
   "hunyuan-vision": {
     "description": "Mô hình đa phương thức mới nhất của Hunyuan, hỗ trợ đầu vào hình ảnh + văn bản để tạo ra nội dung văn bản."
@@ -1192,6 +1231,9 @@
   },
   "pro-128k": {
     "description": "Spark Pro 128K được cấu hình với khả năng xử lý ngữ cảnh cực lớn, có thể xử lý tới 128K thông tin ngữ cảnh, đặc biệt phù hợp cho việc phân tích toàn bộ và xử lý mối liên hệ logic lâu dài trong nội dung văn bản dài, có thể cung cấp logic mạch lạc và hỗ trợ trích dẫn đa dạng trong giao tiếp văn bản phức tạp."
+  },
+  "qvq-72b-preview": {
+    "description": "Mô hình QVQ là mô hình nghiên cứu thử nghiệm do đội ngũ Qwen phát triển, tập trung vào việc nâng cao khả năng suy luận hình ảnh, đặc biệt trong lĩnh vực suy luận toán học."
   },
   "qwen-coder-plus-latest": {
     "description": "Mô hình mã Qwen."

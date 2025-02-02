@@ -176,6 +176,9 @@
   "Pro/meta-llama/Meta-Llama-3.1-8B-Instruct": {
     "description": "Meta Llama 3.1 è una famiglia di modelli linguistici di grandi dimensioni multilingue sviluppata da Meta, che include varianti pre-addestrate e con fine-tuning per istruzioni con dimensioni di 8B, 70B e 405B. Questo modello di fine-tuning per istruzioni da 8B è ottimizzato per scenari di dialogo multilingue e ha dimostrato prestazioni eccellenti in vari benchmark di settore. L'addestramento del modello ha utilizzato oltre 150 trilioni di token di dati pubblici e ha impiegato tecniche come il fine-tuning supervisionato e l'apprendimento per rinforzo basato su feedback umano per migliorare l'utilità e la sicurezza del modello. Llama 3.1 supporta la generazione di testi e di codice, con una data di scadenza delle conoscenze fissata a dicembre 2023."
   },
+  "Qwen/QVQ-72B-Preview": {
+    "description": "QVQ-72B-Preview è un modello di ricerca sviluppato dal team Qwen, focalizzato sulle capacità di inferenza visiva, con vantaggi unici nella comprensione di scenari complessi e nella risoluzione di problemi matematici legati alla visione."
+  },
   "Qwen/QwQ-32B-Preview": {
     "description": "QwQ-32B-Preview è l'ultimo modello di ricerca sperimentale di Qwen, focalizzato sul miglioramento delle capacità di ragionamento dell'IA. Esplorando meccanismi complessi come la mescolanza linguistica e il ragionamento ricorsivo, i principali vantaggi includono potenti capacità di analisi del ragionamento, abilità matematiche e di programmazione. Tuttavia, ci sono anche problemi di cambio linguistico, cicli di ragionamento, considerazioni di sicurezza e differenze in altre capacità."
   },
@@ -530,11 +533,20 @@
   "databricks/dbrx-instruct": {
     "description": "DBRX Instruct offre capacità di elaborazione di istruzioni altamente affidabili, supportando applicazioni in vari settori."
   },
+  "deepseek-ai/DeepSeek-R1": {
+    "description": "DeepSeek-R1 è un modello di inferenza guidato da apprendimento rinforzato (RL) che affronta i problemi di ripetitività e leggibilità nel modello. Prima dell'RL, DeepSeek-R1 ha introdotto dati di cold start, ottimizzando ulteriormente le prestazioni di inferenza. Si comporta in modo comparabile a OpenAI-o1 in compiti matematici, di codifica e di inferenza, e migliora l'efficacia complessiva attraverso metodi di addestramento accuratamente progettati."
+  },
   "deepseek-ai/DeepSeek-V2.5": {
     "description": "DeepSeek V2.5 combina le eccellenti caratteristiche delle versioni precedenti, migliorando le capacità generali e di codifica."
   },
+  "deepseek-ai/DeepSeek-V3": {
+    "description": "DeepSeek-V3 è un modello linguistico a esperti misti (MoE) con 6710 miliardi di parametri, che utilizza attenzione latente multi-testa (MLA) e architettura DeepSeekMoE, combinando strategie di bilanciamento del carico senza perdite ausiliarie per ottimizzare l'efficienza di inferenza e addestramento. Pre-addestrato su 14,8 trilioni di token di alta qualità e successivamente affinato supervisionato e tramite apprendimento rinforzato, DeepSeek-V3 supera le prestazioni di altri modelli open source, avvicinandosi ai modelli closed source leader."
+  },
   "deepseek-ai/deepseek-llm-67b-chat": {
     "description": "DeepSeek 67B è un modello avanzato addestrato per dialoghi ad alta complessità."
+  },
+  "deepseek-ai/deepseek-vl2": {
+    "description": "DeepSeek-VL2 è un modello linguistico visivo a esperti misti (MoE) sviluppato sulla base di DeepSeekMoE-27B, che utilizza un'architettura MoE con attivazione sparsa, raggiungendo prestazioni eccezionali attivando solo 4,5 miliardi di parametri. Questo modello eccelle in vari compiti, tra cui domande visive, riconoscimento ottico dei caratteri, comprensione di documenti/tabelle/grafici e localizzazione visiva."
   },
   "deepseek-chat": {
     "description": "Un nuovo modello open source che integra capacità generali e di codifica, mantenendo non solo le capacità conversazionali generali del modello Chat originale, ma anche la potente capacità di elaborazione del codice del modello Coder, allineandosi meglio alle preferenze umane. Inoltre, DeepSeek-V2.5 ha ottenuto notevoli miglioramenti in vari aspetti, come i compiti di scrittura e il rispetto delle istruzioni."
@@ -547,6 +559,9 @@
   },
   "deepseek-coder-v2:236b": {
     "description": "DeepSeek Coder V2 è un modello di codice open source di esperti misti, eccelle nei compiti di codice, paragonabile a GPT4-Turbo."
+  },
+  "deepseek-r1": {
+    "description": "DeepSeek-R1 è un modello di inferenza guidato da apprendimento rinforzato (RL) che affronta i problemi di ripetitività e leggibilità nel modello. Prima dell'RL, DeepSeek-R1 ha introdotto dati di cold start, ottimizzando ulteriormente le prestazioni di inferenza. Si comporta in modo comparabile a OpenAI-o1 in compiti matematici, di codifica e di inferenza, e migliora l'efficacia complessiva attraverso metodi di addestramento accuratamente progettati."
   },
   "deepseek-reasoner": {
     "description": "Modello di ragionamento lanciato da DeepSeek. Prima di fornire la risposta finale, il modello genera una catena di pensiero per migliorare l'accuratezza della risposta finale."
@@ -809,8 +824,17 @@
   "hunyuan-functioncall": {
     "description": "Ultimo modello FunctionCall con architettura MOE di Hunyuan, addestrato su dati di alta qualità per le chiamate di funzione, con una finestra di contesto di 32K, è in testa in vari indicatori di valutazione."
   },
+  "hunyuan-large": {
+    "description": "Il modello Hunyuan-large ha un numero totale di parametri di circa 389B, con circa 52B di parametri attivati, ed è il modello MoE open source con la più grande scala di parametri e le migliori prestazioni nel settore, basato su architettura Transformer."
+  },
+  "hunyuan-large-longcontext": {
+    "description": "Specializzato nel gestire compiti di testi lunghi come riassunti di documenti e domande e risposte sui documenti, possiede anche capacità di generazione di testi generali. Eccelle nell'analisi e nella generazione di testi lunghi, in grado di affrontare efficacemente esigenze complesse e dettagliate di elaborazione di contenuti lunghi."
+  },
   "hunyuan-lite": {
     "description": "Aggiornato a una struttura MOE, con una finestra di contesto di 256k, è in testa a molti modelli open source in vari set di valutazione su NLP, codice, matematica e settori."
+  },
+  "hunyuan-lite-vision": {
+    "description": "Il modello multimodale Hunyuan più recente da 7B, con una finestra contestuale di 32K, supporta dialoghi multimodali in cinese e inglese, riconoscimento di oggetti nelle immagini, comprensione di documenti e tabelle, matematica multimodale, e supera i modelli concorrenti da 7B in vari indicatori di valutazione."
   },
   "hunyuan-pro": {
     "description": "Modello di testo lungo MOE-32K con un miliardo di parametri. Raggiunge livelli di eccellenza in vari benchmark, con capacità di istruzioni complesse e ragionamento, supporta le chiamate di funzione, ottimizzato per traduzione multilingue, finanza, diritto e medicina."
@@ -824,8 +848,23 @@
   "hunyuan-standard-256K": {
     "description": "Utilizza una strategia di routing migliore, alleviando i problemi di bilanciamento del carico e convergenza degli esperti. Per i testi lunghi, l'indice di recupero è del 99,9%. MOE-256K supera ulteriormente in lunghezza ed efficacia, ampliando notevolmente la lunghezza massima di input."
   },
+  "hunyuan-standard-vision": {
+    "description": "Il modello multimodale più recente di Hunyuan, supporta risposte in più lingue, con capacità equilibrate in cinese e inglese."
+  },
   "hunyuan-turbo": {
     "description": "Anteprima della nuova generazione di modelli di linguaggio di Hunyuan, utilizza una nuova struttura di modello ibrido di esperti (MoE), con una maggiore efficienza di inferenza e prestazioni superiori rispetto a hunyuan-pro."
+  },
+  "hunyuan-turbo-20241120": {
+    "description": "Versione fissa di hunyuan-turbo del 20 novembre 2024, una versione intermedia tra hunyuan-turbo e hunyuan-turbo-latest."
+  },
+  "hunyuan-turbo-20241223": {
+    "description": "Ottimizzazione di questa versione: scaling delle istruzioni sui dati, notevole aumento della capacità di generalizzazione del modello; notevole miglioramento delle capacità matematiche, di codifica e di ragionamento logico; ottimizzazione delle capacità di comprensione del testo e delle parole; ottimizzazione della qualità della generazione dei contenuti di creazione del testo."
+  },
+  "hunyuan-turbo-latest": {
+    "description": "Ottimizzazione dell'esperienza generale, inclusi comprensione NLP, creazione di testi, conversazione, domande e risposte, traduzione, e altro; miglioramento dell'umanizzazione, ottimizzazione dell'intelligenza emotiva del modello; potenziamento della capacità del modello di chiarire attivamente in caso di ambiguità; miglioramento della gestione di problemi di analisi di parole e frasi; aumento della qualità e dell'interattività della creazione; miglioramento dell'esperienza multi-turno."
+  },
+  "hunyuan-turbo-vision": {
+    "description": "Il nuovo modello di punta di linguaggio visivo di Hunyuan, adotta una nuova struttura di modello esperto misto (MoE), con miglioramenti complessivi nelle capacità di riconoscimento di base, creazione di contenuti, domande e risposte, analisi e ragionamento rispetto alla generazione precedente."
   },
   "hunyuan-vision": {
     "description": "Ultimo modello multimodale di Hunyuan, supporta l'input di immagini e testo per generare contenuti testuali."
@@ -1192,6 +1231,9 @@
   },
   "pro-128k": {
     "description": "Spark Pro 128K è dotato di una capacità di elaborazione del contesto eccezionale, in grado di gestire fino a 128K di informazioni contestuali, particolarmente adatto per l'analisi completa e la gestione di associazioni logiche a lungo termine in contenuti lunghi, fornendo una logica fluida e coerente e un supporto variegato per le citazioni in comunicazioni testuali complesse."
+  },
+  "qvq-72b-preview": {
+    "description": "Il modello QVQ è un modello di ricerca sperimentale sviluppato dal team Qwen, focalizzato sul miglioramento delle capacità di ragionamento visivo, in particolare nel campo del ragionamento matematico."
   },
   "qwen-coder-plus-latest": {
     "description": "Modello di codice Qwen di Tongyi."

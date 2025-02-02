@@ -176,6 +176,9 @@
   "Pro/meta-llama/Meta-Llama-3.1-8B-Instruct": {
     "description": "Meta Llama 3.1, Meta tarafından geliştirilen çok dilli büyük dil modeli ailesidir ve 8B, 70B ve 405B olmak üzere üç parametre ölçeği ile önceden eğitilmiş ve talimat ince ayar varyantları içermektedir. Bu 8B talimat ince ayar modeli, çok dilli diyalog senaryoları için optimize edilmiştir ve birçok endüstri standart testinde mükemmel performans sergilemektedir. Model, 15 trilyon token'dan fazla açık veriler kullanılarak eğitilmiş ve modelin faydasını ve güvenliğini artırmak için denetimli ince ayar ve insan geri bildirimi pekiştirmeli öğrenme gibi teknikler kullanılmıştır. Llama 3.1, metin üretimi ve kod üretimini desteklemekte olup, bilgi kesim tarihi 2023 Aralık'tır."
   },
+  "Qwen/QVQ-72B-Preview": {
+    "description": "QVQ-72B-Preview, Qwen ekibi tarafından geliştirilen ve görsel çıkarım yeteneklerine odaklanan bir araştırma modelidir. Karmaşık sahne anlayışı ve görsel ile ilgili matematiksel sorunları çözme konusundaki benzersiz avantajları ile dikkat çekmektedir."
+  },
   "Qwen/QwQ-32B-Preview": {
     "description": "QwQ-32B-Preview, Qwen'in en son deneysel araştırma modelidir ve AI akıl yürütme yeteneklerini artırmaya odaklanmaktadır. Dil karışımı, özyinelemeli akıl yürütme gibi karmaşık mekanizmaları keşfederek, güçlü akıl yürütme analizi, matematik ve programlama yetenekleri gibi ana avantajlar sunmaktadır. Bununla birlikte, dil geçiş sorunları, akıl yürütme döngüleri, güvenlik endişeleri ve diğer yetenek farklılıkları gibi zorluklar da bulunmaktadır."
   },
@@ -530,11 +533,20 @@
   "databricks/dbrx-instruct": {
     "description": "DBRX Instruct, yüksek güvenilirlikte talimat işleme yetenekleri sunar ve çok çeşitli endüstri uygulamalarını destekler."
   },
+  "deepseek-ai/DeepSeek-R1": {
+    "description": "DeepSeek-R1, tekrarlayan öğrenme (RL) destekli bir çıkarım modelidir ve modeldeki tekrarlama ve okunabilirlik sorunlarını çözmektedir. RL'den önce, DeepSeek-R1 soğuk başlangıç verilerini tanıtarak çıkarım performansını daha da optimize etmiştir. Matematik, kod ve çıkarım görevlerinde OpenAI-o1 ile benzer bir performans sergilemekte ve özenle tasarlanmış eğitim yöntemleri ile genel etkisini artırmaktadır."
+  },
   "deepseek-ai/DeepSeek-V2.5": {
     "description": "DeepSeek V2.5, önceki sürümlerin mükemmel özelliklerini bir araya getirir, genel ve kodlama yeteneklerini artırır."
   },
+  "deepseek-ai/DeepSeek-V3": {
+    "description": "DeepSeek-V3, 6710 milyar parametreye sahip bir karma uzman (MoE) dil modelidir. Çok başlı potansiyel dikkat (MLA) ve DeepSeekMoE mimarisini kullanarak, yardımcı kayıplar olmadan yük dengeleme stratejisi ile çıkarım ve eğitim verimliliğini optimize etmektedir. 14.8 trilyon yüksek kaliteli token üzerinde önceden eğitilmiş ve denetimli ince ayar ile tekrarlayan öğrenme gerçekleştirilmiştir; DeepSeek-V3, performans açısından diğer açık kaynaklı modelleri geride bırakmakta ve lider kapalı kaynaklı modellere yaklaşmaktadır."
+  },
   "deepseek-ai/deepseek-llm-67b-chat": {
     "description": "DeepSeek 67B, yüksek karmaşıklıkta diyaloglar için eğitilmiş gelişmiş bir modeldir."
+  },
+  "deepseek-ai/deepseek-vl2": {
+    "description": "DeepSeek-VL2, DeepSeekMoE-27B tabanlı bir karma uzman (MoE) görsel dil modelidir. Seyrek etkinleştirilen MoE mimarisini kullanarak yalnızca 4.5B parametreyi etkinleştirerek olağanüstü performans sergilemektedir. Bu model, görsel soru yanıtlama, optik karakter tanıma, belge/tablolar/grafikler anlama ve görsel konumlandırma gibi birçok görevde mükemmel sonuçlar elde etmektedir."
   },
   "deepseek-chat": {
     "description": "Genel ve kod yeteneklerini birleştiren yeni bir açık kaynak modeli, yalnızca mevcut Chat modelinin genel diyalog yeteneklerini ve Coder modelinin güçlü kod işleme yeteneklerini korumakla kalmaz, aynı zamanda insan tercihleri ile daha iyi hizalanmıştır. Ayrıca, DeepSeek-V2.5 yazım görevleri, talimat takibi gibi birçok alanda büyük iyileştirmeler sağlamıştır."
@@ -547,6 +559,9 @@
   },
   "deepseek-coder-v2:236b": {
     "description": "DeepSeek Coder V2, açık kaynaklı bir karışık uzman kod modelidir, kod görevlerinde mükemmel performans sergiler ve GPT4-Turbo ile karşılaştırılabilir."
+  },
+  "deepseek-r1": {
+    "description": "DeepSeek-R1, tekrarlayan öğrenme (RL) destekli bir çıkarım modelidir ve modeldeki tekrarlama ve okunabilirlik sorunlarını çözmektedir. RL'den önce, DeepSeek-R1 soğuk başlangıç verilerini tanıtarak çıkarım performansını daha da optimize etmiştir. Matematik, kod ve çıkarım görevlerinde OpenAI-o1 ile benzer bir performans sergilemekte ve özenle tasarlanmış eğitim yöntemleri ile genel etkisini artırmaktadır."
   },
   "deepseek-reasoner": {
     "description": "DeepSeek tarafından sunulan bir akıl yürütme modeli. Model, nihai yanıtı vermeden önce bir düşünce zinciri içeriği sunarak nihai cevabın doğruluğunu artırır."
@@ -809,8 +824,17 @@
   "hunyuan-functioncall": {
     "description": "Hunyuan'ın en son MOE mimarisi FunctionCall modeli, yüksek kaliteli FunctionCall verisi ile eğitilmiş olup, bağlam penceresi 32K'ya ulaşmıştır ve birçok boyutta değerlendirme göstergelerinde lider konumdadır."
   },
+  "hunyuan-large": {
+    "description": "Hunyuan-large modelinin toplam parametre sayısı yaklaşık 389B, etkin parametre sayısı yaklaşık 52B'dir; bu, mevcut endüstrideki en büyük parametre ölçeğine sahip ve en iyi performansı gösteren Transformer mimarisinin açık kaynaklı MoE modelidir."
+  },
+  "hunyuan-large-longcontext": {
+    "description": "Uzun metin görevlerini, örneğin belge özeti ve belge sorgulama gibi, işleme konusunda uzmandır; aynı zamanda genel metin oluşturma görevlerini de yerine getirme yeteneğine sahiptir. Uzun metinlerin analizi ve oluşturulmasında mükemmel bir performans sergiler, karmaşık ve ayrıntılı uzun metin içerik işleme ihtiyaçlarına etkili bir şekilde yanıt verebilir."
+  },
   "hunyuan-lite": {
     "description": "MOE yapısına yükseltilmiş, bağlam penceresi 256k, NLP, kod, matematik, endüstri gibi birçok değerlendirme setinde birçok açık kaynak modelden önde."
+  },
+  "hunyuan-lite-vision": {
+    "description": "Hunyuan'ın en son 7B çok modlu modeli, bağlam penceresi 32K, Çince ve İngilizce senaryolarında çok modlu diyalog, görüntü nesne tanıma, belge tablo anlama, çok modlu matematik vb. destekler; birçok boyutta değerlendirme kriterleri 7B rakip modellerden üstündür."
   },
   "hunyuan-pro": {
     "description": "Trilyon seviyesinde parametre ölçeğine sahip MOE-32K uzun metin modeli. Çeşitli benchmarklarda kesin bir liderlik seviyesine ulaşarak, karmaşık talimatlar ve akıl yürütme yetenekleri ile karmaşık matematik yetenekleri sunar, functioncall desteği ile çok dilli çeviri, finans, hukuk ve sağlık gibi alanlarda önemli optimizasyonlar sağlar."
@@ -824,8 +848,23 @@
   "hunyuan-standard-256K": {
     "description": "Daha iyi bir yönlendirme stratejisi kullanarak, yük dengeleme ve uzman yakınsaması sorunlarını hafifletir. Uzun metinlerde, iğne arama göstergesi %99.9'a ulaşmaktadır. MOE-256K, uzunluk ve etki açısından daha fazla bir sıçrama yaparak, girdi uzunluğunu büyük ölçüde genişletir."
   },
+  "hunyuan-standard-vision": {
+    "description": "Hunyuan'ın en son çok modlu modeli, çok dilli yanıtları destekler, Çince ve İngilizce yetenekleri dengelidir."
+  },
   "hunyuan-turbo": {
     "description": "Hunyuan'ın yeni nesil büyük dil modelinin önizleme sürümü, tamamen yeni bir karma uzman modeli (MoE) yapısı kullanır ve hunyuan-pro'ya kıyasla daha hızlı çıkarım verimliliği ve daha güçlü performans sunar."
+  },
+  "hunyuan-turbo-20241120": {
+    "description": "Hunyuan-turbo 2024 yılı 11 ay 20 günü sabit sürümü, hunyuan-turbo ve hunyuan-turbo-latest arasında bir versiyon."
+  },
+  "hunyuan-turbo-20241223": {
+    "description": "Bu sürümde yapılan optimizasyonlar: veri talimatı ölçeklendirme, modelin genel genelleme yeteneğini büyük ölçüde artırma; matematik, kodlama, mantıksal akıl yürütme yeteneklerini büyük ölçüde artırma; metin anlama ve kelime anlama ile ilgili yetenekleri optimize etme; metin oluşturma içerik üretim kalitesini optimize etme."
+  },
+  "hunyuan-turbo-latest": {
+    "description": "Genel deneyim optimizasyonu, NLP anlama, metin oluşturma, sohbet, bilgi sorgulama, çeviri, alan vb. dahil; insan benzeri özellikleri artırma, modelin duygusal zekasını optimize etme; niyet belirsiz olduğunda modelin aktif olarak netleştirme yeteneğini artırma; kelime ve terim analizi ile ilgili sorunların işlenme yeteneğini artırma; yaratım kalitesini ve etkileşimliğini artırma; çoklu tur deneyimini geliştirme."
+  },
+  "hunyuan-turbo-vision": {
+    "description": "Hunyuan'ın yeni nesil görsel dil amiral modeli, tamamen yeni bir karışık uzman modeli (MoE) yapısını benimser; metin ve görüntü anlama ile ilgili temel tanıma, içerik oluşturma, bilgi sorgulama, analiz ve akıl yürütme gibi yeteneklerde bir önceki nesil modele göre kapsamlı bir iyileştirme sağlar."
   },
   "hunyuan-vision": {
     "description": "Hunyuan'ın en son çok modlu modeli, resim + metin girişi ile metin içeriği oluşturmayı destekler."
@@ -1192,6 +1231,9 @@
   },
   "pro-128k": {
     "description": "Spark Pro 128K, olağanüstü bağlam işleme yeteneği ile donatılmıştır ve 128K'ya kadar bağlam bilgilerini işleyebilir. Özellikle uzun metinlerin bütünsel analizi ve uzun vadeli mantıksal ilişkilerin işlenmesi gereken durumlar için uygundur ve karmaşık metin iletişiminde akıcı ve tutarlı bir mantık ile çeşitli alıntı desteği sunmaktadır."
+  },
+  "qvq-72b-preview": {
+    "description": "QVQ modeli, Qwen ekibi tarafından geliştirilen deneysel bir araştırma modelidir; görsel akıl yürütme yeteneğini artırmaya odaklanır, özellikle matematik akıl yürütme alanında."
   },
   "qwen-coder-plus-latest": {
     "description": "Tongyi Qianwen kod modeli."
