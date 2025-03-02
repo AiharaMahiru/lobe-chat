@@ -2,6 +2,198 @@
 
 # Changelog
 
+### [Version 1.67.1](https://github.com/lobehub/lobe-chat/compare/v1.67.0...v1.67.1)
+
+<sup>Released on **2025-03-02**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.67.0](https://github.com/lobehub/lobe-chat/compare/v1.66.6...v1.67.0)
+
+<sup>Released on **2025-03-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Support web page crawl in the search.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support web page crawl in the search, closes [#6582](https://github.com/lobehub/lobe-chat/issues/6582) ([5e02602](https://github.com/lobehub/lobe-chat/commit/5e02602))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.66.6](https://github.com/lobehub/lobe-chat/compare/v1.66.5...v1.66.6)
+
+<sup>Released on **2025-03-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add `gpt-4.5-preview` for OpenAI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add `gpt-4.5-preview` for OpenAI, closes [#6618](https://github.com/lobehub/lobe-chat/issues/6618) ([3ec3af0](https://github.com/lobehub/lobe-chat/commit/3ec3af0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.66.5](https://github.com/lobehub/lobe-chat/compare/v1.66.4...v1.66.5)
+
+<sup>Released on **2025-02-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve portal style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve portal style, closes [#6588](https://github.com/lobehub/lobe-chat/issues/6588) ([55b5416](https://github.com/lobehub/lobe-chat/commit/55b5416))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.66.4](https://github.com/lobehub/lobe-chat/compare/v1.66.3...v1.66.4)
+
+<sup>Released on **2025-02-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Optimize smooth output.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Optimize smooth output, closes [#5824](https://github.com/lobehub/lobe-chat/issues/5824) ([7a84ad9](https://github.com/lobehub/lobe-chat/commit/7a84ad9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.66.3](https://github.com/lobehub/lobe-chat/compare/v1.66.2...v1.66.3)
+
+<sup>Released on **2025-02-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix fetch assistants plugin error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix fetch assistants plugin error, closes [#6576](https://github.com/lobehub/lobe-chat/issues/6576) ([9669a02](https://github.com/lobehub/lobe-chat/commit/9669a02))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.66.2](https://github.com/lobehub/lobe-chat/compare/v1.66.1...v1.66.2)
+
+<sup>Released on **2025-02-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update Claude sonnet 3.7 model ID.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update Claude sonnet 3.7 model ID, closes [#6567](https://github.com/lobehub/lobe-chat/issues/6567) ([d1039d6](https://github.com/lobehub/lobe-chat/commit/d1039d6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.66.1](https://github.com/lobehub/lobe-chat/compare/v1.66.0...v1.66.1)
+
+<sup>Released on **2025-02-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Added eu-central-1 region for bedrock.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Added eu-central-1 region for bedrock, closes [#6555](https://github.com/lobehub/lobe-chat/issues/6555) ([6f1e599](https://github.com/lobehub/lobe-chat/commit/6f1e599))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.66.0](https://github.com/lobehub/lobe-chat/compare/v1.65.2...v1.66.0)
 
 <sup>Released on **2025-02-27**</sup>
