@@ -15,7 +15,7 @@ export const searchRouter = router({
   crawlPages: searchProcedure
     .input(
       z.object({
-        impls: z.string().array().optional(),
+        impls: z.enum(['jina', 'naive', 'browserless']).array().optional(),
         urls: z.string().array(),
       }),
     )
@@ -27,7 +27,7 @@ export const searchRouter = router({
         async (url) => {
           return await crawler.crawl({ impls: input.impls, url });
         },
-        { concurrency: 10 },
+        { concurrency: 3 },
       );
 
       return { results };
